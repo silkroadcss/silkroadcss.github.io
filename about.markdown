@@ -1,18 +1,30 @@
 ---
 layout: page
-title: About
+title: 关于
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+### 关于框架名称
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+Silk Road，著名的“丝绸之路”。
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+“丝绸之路”，虽然广义上分为陆上“丝绸之路”和海上“丝绸之路”，但一般指陆上“丝绸之路”。
 
+“丝绸之路”起源于西汉（前202年—8年）汉武帝派张骞出使西域开辟的以首都长安（今西安）为起点，经甘肃、新疆，到中亚、西亚，并连接地中海各国的陆上通道。东汉时期丝绸之路的起点在洛阳。它的最初作用是运输中国古代出产的丝绸，在明朝时期成为综合贸易之路。1877年，德国地质地理学家李希霍芬在其著作《中国》一书中，把“从公元前114年至公元127年间，中国与中亚、中国与印度间以丝绸贸易为媒介的这条西域交通道路”命名为“丝绸之路”，这一名词很快被学术界和大众所接受，并正式运用。
 
-[jekyll-organization]: https://github.com/jekyll
+![丝绸之路](/assets/images/silk-road.jpg "Silk Road")
+
+“丝绸之路”历史作用这里姑且不谈，究其所连接区域，竟然神奇的出现了目前我们所能够知道的所有书写模式（writing-mode）的使用区域:
+
+* 行水平方向堆叠，块从上到下方向堆叠
+  * horizontal-tb, direction(ltr)，例如西文
+  * horizontal-tb, direction(rtl)，例如阿拉伯文
+* 行从上到下方向堆叠，块水平方向堆叠
+  * vertical-lr，例如蒙古文
+  * vertical-rl，例如中国汉文古籍
+
+所以，我们以“丝绸之路”命名 CSS 框架，就是想要做出一种能够同时满足“丝绸之路”上所有地区的使用的 CSS 框架。
+
+### 关于域名
+
+域名srcss.cn表明是来自中国（CN）的**S**ilk **R**oad **CSS**。

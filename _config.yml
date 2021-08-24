@@ -21,12 +21,17 @@
 title: Silk Road CSS
 email: hfl@huangfeilong.com
 description: >- # this means to ignore newlines until "baseurl:"
-  一款通用的、适合各类语言布局的CSS框架。
+  各种书写模式下的通用 CSS 框架
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
 
+header_pages:
+  - docs/index.markdown
+  - about.markdown
+
+minima:
+  date_format: "%Y年%m月%d日"
+  skin: solarized
 # Build settings
 theme: minima
 plugins:
